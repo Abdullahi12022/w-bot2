@@ -13,40 +13,26 @@ Built with Node.js + Baileys (Multi-Device)
 - Tag all members with custom message → `.tag hi` / `.tag Good morning everyone!`
 - (more features coming soon...)
 
-## Quick Installation
+
+
+Installation Commands
+
+For Termux Users (Android):
 
 ```bash
-# 1. Clone the repository
+pkg update && pkg upgrade -y
+pkg install git -y
 git clone https://github.com/Abdullahi12022/w-bot.git
 cd w-bot
-
-# 2. Make scripts executable (Linux/macOS)
 chmod +x build.sh start.sh
+./build.sh
+```
 
-# 3. Run installer (will ask for your Groq API key)
-./build.sh#
-
-4. you can generate groq API key on
-https://console.groq.com
+For Linux/macOS Users:
 
 ```bash
-# termux installation
-pkg update && pkg upgrade
-
-# 1. Clone the repository
 git clone https://github.com/Abdullahi12022/w-bot.git
 cd w-bot
-
-# 2. Make scripts executable (Linux/macOS)
 chmod +x build.sh start.sh
-
-# 3. Run installer (will ask for your Groq API key)
-./build.sh#
-
-4. you can generate groq API key on
-https://console.groq.com
-
-
-
-
-
+./build.sh
+```
