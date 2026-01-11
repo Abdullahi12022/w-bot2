@@ -22,8 +22,8 @@ For Termux Users (Android):
 ```bash
 pkg update && pkg upgrade -y
 pkg install git -y
-git clone https://github.com/Abdullahi12022/w-bot.git
-cd w-bot
+git clone https://github.com/Abdullahi12022/w-bot2.git
+cd w-bot2
 chmod +x build.sh start.sh
 ./build.sh
 ```
@@ -31,8 +31,8 @@ chmod +x build.sh start.sh
 For Linux/macOS Users:
 
 ```bash
-git clone https://github.com/Abdullahi12022/w-bot.git
-cd w-bot
+git clone https://github.com/Abdullahi12022/w-bot2.git
+cd w-bot2
 chmod +x build.sh start.sh
 ./build.sh
 ```
@@ -44,6 +44,6 @@ Notes
 
 Need Help?
 
-· Repository: https://github.com/Abdullahi12022/w-bot
+· Repository: https://github.com/Abdullahi12022/w-bot2
 · API key: https://console.groq.com
 
