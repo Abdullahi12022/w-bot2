@@ -24,4 +24,9 @@ cd w-bot
 chmod +x build.sh start.sh
 
 # 3. Run installer (will ask for your Groq API key)
-./build.sh
+./build.sh#
+
+4. you can generate groq API key on
+https://console.groq.com
+
+
