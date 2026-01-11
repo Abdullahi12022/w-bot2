@@ -29,4 +29,24 @@ chmod +x build.sh start.sh
 4. you can generate groq API key on
 https://console.groq.com
 
+```bash
+# termux installation
+pkg update && pkg upgrade
+
+# 1. Clone the repository
+git clone https://github.com/Abdullahi12022/w-bot.git
+cd w-bot
+
+# 2. Make scripts executable (Linux/macOS)
+chmod +x build.sh start.sh
+
+# 3. Run installer (will ask for your Groq API key)
+./build.sh#
+
+4. you can generate groq API key on
+https://console.groq.com
+
+
+
+
 
